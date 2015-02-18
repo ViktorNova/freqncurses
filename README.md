@@ -11,8 +11,8 @@ The provided script might actually be brutal on your flash card as is, since it 
 It should really use a virtual filesystem in ram, and Raspbian already has one you can write to without special permissions. This works, and is almost perfect:
 
 ```
-mkfifo fakempd.fifo
-arecord > /run/shm/fakempd.fifo
+mkfifo /run/shm/fakempd.fifo
+arecord > /run/shm/fakempd.fifo &
 nausea -c /run/shm/fakempd.fifo
 ```
 
