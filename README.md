@@ -19,6 +19,6 @@ like it does with regular filesystems.. weird.
 
 So a quick dumb hack would be to restart the script every minute or so, although for **sure** there is a better way to do it. Actually, arecord is the only thing that needs to get restarted, nausea will just be a blank screen if no audio is being recorded to the fifo.. more to come!
 
-To do:
-Compile MPDViz on the Pi
+To do:    
+Compile MPDViz on the Pi    
 https://github.com/lucy/mpdviz
