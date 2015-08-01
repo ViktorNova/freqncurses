@@ -2,7 +2,9 @@
 Visualize incoming audio on the console on a Raspberry pi
 ![Nausea](http://i.imgur.com/IquogKO.png)
 
-This uses mkfifo and arecord to fake an MPD stream fifo from an incoming audio source so we can use MPD's visualizers to visualize real shit, yo. Right now it is using Nausea, which is easy to compile on anything. There's a binary here for Debian Wheezy armhf, compiled on Raspbian, but you should use the @kiisu-dsalyss fork instead, especially if you plan to use this for a guitar pedal. He has done some interesting work to make it much better for that
+This uses mkfifo and arecord to fake an MPD stream fifo from an incoming audio source so we can use MPD's visualizers to visualize an instrument (like a guitar) in realtime, without needing to run X! 
+
+Right now it is using Nausea, which is easy to compile on anything. There's a binary here for Debian Wheezy armhf, compiled on Raspbian, but you should use the @kiisu-dsalyss fork instead, especially if you plan to use this for a guitar pedal. He has done some interesting work to make it much better for that
 
 ###Console-based Visualizers
 Recommended: Nausea (@kiisu-dsalyss fork)
